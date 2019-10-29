@@ -5,9 +5,9 @@ import "errors"
 const (
 	zero  = byte('0')
 	one   = byte('1')
-	lsb   = byte('[') // left square brackets
-	rsb   = byte(']') // right square brackets
-	space = byte(' ')
+	lsb   = byte('') // left square brackets
+	rsb   = byte('') // right square brackets
+	space = byte('')
 )
 
 var uint8arr [8]uint8
