@@ -14,13 +14,14 @@ And you can also convert a string in binary,hex or octal format to a data with d
 ## Quick Start
 ##### Install
 ``` sh
-$ go get github.com/imroc/biu
+$ go get github.com/juvu/biu
 ```
 ##### Bytes to string (binary format)
 ``` go
 bs := []byte{1, 2, 3}
 s := biu.BytesToBinaryString(bs)
-fmt.Println(s) //[00000001 00000010 00000011]
+fmt.Println(s) //000000010000001000000011
+//合并返回
 fmt.Println(biu.ByteToBinaryString(byte(3))) //00000011
 ```
 ##### Any data type to string (binary format)
